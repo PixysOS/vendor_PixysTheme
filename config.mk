@@ -49,9 +49,13 @@ include vendor/PixysTheme/fonts.mk
 # Icon Shapes
 include vendor/PixysTheme/iconshapes.mk
 
-# Primary colors
+# Custom Overlays
+# Settings
 PRODUCT_PACKAGES += \
-    PrimaryColorOceanOverlay \
-    PrimaryColorOneplusDarkOverlay
-
-
+    SystemPitchBlackOverlay \
+    SystemDarkGrayOverlay \
+    SystemUIDarkGrayOverlay \
+    SystemStyleOverlay \
+    SystemUIStyleOverlay \
+    SystemNightOverlay \
+    SystemUINightOverlay
