@@ -23,3 +23,6 @@ PRODUCT_PACKAGES += \
     NavBarGesturalNarrowBackNoPillOverlay \
     NavBarGesturalWideBackNoPillOverlay \
     NavBarGesturalExtraWideBackNoPillOverlay
+
+# Fonts
+include vendor/PixysTheme/fonts.mk
