@@ -26,3 +26,6 @@ PRODUCT_PACKAGES += \
 
 # Fonts
 include vendor/PixysTheme/fonts.mk
+
+# Icon Shapes
+include vendor/PixysTheme/iconshapes.mk
