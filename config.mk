@@ -29,3 +29,7 @@ include vendor/PixysTheme/fonts.mk
 
 # Icon Shapes
 include vendor/PixysTheme/iconshapes.mk
+
+# Primary colors
+PRODUCT_PACKAGES += \
+    PrimaryColorOceanOverlay
