@@ -9,7 +9,9 @@ PRODUCT_PACKAGES += \
     FontCoolstorySourceOverlay \
     FontGoogleSansSourceOverlay \
     FontLGSmartGothicSourceOverlay \
+    FontOneplusSlateSource \
     FontRosemarySourceOverlay \
+    FontSamsungOneSourceOverlay \
     FontSonySketchSourceOverlay \
     FontSurferSourceOverlay
 
@@ -35,7 +37,10 @@ PRODUCT_COPY_FILES += \
     vendor/PixysTheme/fonts/prebuilt/PhantomBold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/PhantomBold-Regular.ttf \
     vendor/PixysTheme/fonts/prebuilt/road_rage.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/RoadRage-Regular.ttf \
     vendor/PixysTheme/fonts/prebuilt/Rosemary-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Rosemary-Regular.ttf \
+    vendor/PixysTheme/fonts/prebuilt/SamsungOne.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SamsungOne.ttf \
     vendor/PixysTheme/fonts/prebuilt/Shamshung.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Shamshung.ttf \
+    vendor/PixysTheme/fonts/prebuilt/SlateFromOP-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SlateFromOP-Light.ttf \
+    vendor/PixysTheme/fonts/prebuilt/SlateFromOP-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SlateFromOP-Regular.ttf \
     vendor/PixysTheme/fonts/prebuilt/snowstorm.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Snowstorm-Regular.ttf \
     vendor/PixysTheme/fonts/prebuilt/SonySketch.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/SonySketch.ttf \
     vendor/PixysTheme/fonts/prebuilt/Surfer.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Surfer.ttf \
