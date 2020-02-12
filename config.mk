@@ -1,3 +1,5 @@
+# Inherit from audio config
+$(call inherit-product, vendor/PixysTheme/config/audio.mk)
 
 # Accents
 PRODUCT_PACKAGES += \
@@ -51,3 +53,5 @@ include vendor/PixysTheme/iconshapes.mk
 PRODUCT_PACKAGES += \
     PrimaryColorOceanOverlay \
     PrimaryColorOneplusDarkOverlay
+
+
