@@ -32,4 +32,5 @@ include vendor/PixysTheme/iconshapes.mk
 
 # Primary colors
 PRODUCT_PACKAGES += \
-    PrimaryColorOceanOverlay
+    PrimaryColorOceanOverlay \
+    PrimaryColorOneplusDarkOverlay
