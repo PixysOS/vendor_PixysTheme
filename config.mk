@@ -13,6 +13,7 @@ PRODUCT_PACKAGES += \
     AccentColorBlueGrayOverlay \
     AccentColorBlueGrayOverlay \
     AccentColorBlackOverlay \
+    AccentColoriOSBlueOverlay \
     AccentColorCinnamonOverlay \
     AccentColorOceanOverlay \
     AccentColorOrchidOverlay \
