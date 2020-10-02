@@ -35,6 +35,11 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/PixysTheme/overlay
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/PixysTheme/overlay
 
+# NavigationBar Gestural Mode Overlays
+PRODUCT_PACKAGES += \
+    GesturalNavigationOverlayLong \
+    GesturalNavigationOverlayMedium
+
 # Fonts
 include vendor/PixysTheme/fonts.mk
 
