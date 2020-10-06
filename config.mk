@@ -38,7 +38,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/PixysTheme/overlay
 # NavigationBar Gestural Mode Overlays
 PRODUCT_PACKAGES += \
     GesturalNavigationOverlayLong \
-    GesturalNavigationOverlayMedium
+    GesturalNavigationOverlayMedium \
+    GesturalNavigationOverlayHidden
 
 # Fonts
 include vendor/PixysTheme/fonts.mk
