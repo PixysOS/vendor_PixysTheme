@@ -9,4 +9,5 @@ PRODUCT_PACKAGES += \
     IconShapeFlowerOverlay \
     IconShapePebbleOverlay \
     IconShapeVesselOverlay \
-    IconShapeTaperedRectOverlay
+    IconShapeTaperedRectOverlay \
+    IconShapeHeartOverlay
