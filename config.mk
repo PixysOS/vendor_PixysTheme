@@ -12,10 +12,20 @@ PRODUCT_PACKAGES += \
     AccentColorCyanOverlay \
     AccentColorBlueGrayOverlay \
     AccentColorBlueGrayOverlay \
+    AccentColorBlackOverlay \
+    AccentColorCinnamonOverlay \
+    AccentColorOceanOverlay \
+    AccentColorOrchidOverlay \
+    AccentColorSpaceOverlay \
+    AccentColorGreenOverlay \
+    AccentColorPurpleOverlay \
     AccentColorMintOverlay
 
 # Call Overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/PixysTheme/overlay
+
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/PixysTheme/overlay
 
 # NavigationBar Gestural Mode No Pill Overlays
 PRODUCT_PACKAGES += \
