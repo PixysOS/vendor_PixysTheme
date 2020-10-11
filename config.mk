@@ -1,3 +1,4 @@
+
 # Accents
 PRODUCT_PACKAGES += \
     AccentColorYellowOverlay \
@@ -12,17 +13,26 @@ PRODUCT_PACKAGES += \
     AccentColorCyanOverlay \
     AccentColorBlueGrayOverlay \
     AccentColorBlueGrayOverlay \
-    AccentColorMintOverlay
+    AccentColorBlackOverlay \
+    AccentColorCinnamonOverlay \
+    AccentColorOceanOverlay \
+    AccentColorOrchidOverlay \
+    AccentColorSpaceOverlay \
+    AccentColorGreenOverlay \
+    AccentColorPurpleOverlay \
+    AccentColorMintOverlay \
+     AccentColorAmethystOverlay \
+     AccentColorAquamarineOverlay \
+     AccentColorCarbonOverlay \
+     AccentColorPaletteOverlay \
+     AccentColorSandOverlay \
+     AccentColorTangerineOverlay
 
 # Call Overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/PixysTheme/overlay
 
-# NavigationBar Gestural Mode No Pill Overlays
-PRODUCT_PACKAGES += \
-    NavBarGesturalNoPillOverlay \
-    NavBarGesturalNarrowBackNoPillOverlay \
-    NavBarGesturalWideBackNoPillOverlay \
-    NavBarGesturalExtraWideBackNoPillOverlay
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += vendor/PixysTheme/overlay
 
 # Fonts
 include vendor/PixysTheme/fonts.mk
