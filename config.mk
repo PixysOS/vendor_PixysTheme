@@ -54,6 +54,8 @@ include vendor/PixysTheme/iconshapes.mk
 PRODUCT_PACKAGES += \
     SystemRavenBlackOverlay \
     SystemUIRavenBlackOverlay \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay \
     SystemDarkGrayOverlay \
     SystemUIDarkGrayOverlay \
     SystemStyleOverlay \
