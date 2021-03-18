@@ -52,6 +52,8 @@ include vendor/PixysTheme/iconshapes.mk
 # Custom Overlays
 # Settings
 PRODUCT_PACKAGES += \
+    SystemDark12Overlay \
+    SystemUIDark12Overlay \
     SystemPitchBlackOverlay \
     SystemUIPitchBlackOverlay \
     SystemDarkGrayOverlay \
